@@ -22,7 +22,7 @@ import torch
 from dotenv import load_dotenv
 from sklearn.cluster import MiniBatchKMeans
 
-from configs.config import Config
+from config.config import Config
 from i18n.i18n import I18nAuto
 from infer.lib.train.process_ckpt import (
     change_info,
