@@ -14,6 +14,7 @@ from time import sleep
 import json
 import pathlib
 
+from config import config
 import fairseq
 import faiss
 import gradio as gr
@@ -22,7 +23,6 @@ import torch
 from dotenv import load_dotenv
 from sklearn.cluster import MiniBatchKMeans
 
-from config import Config
 from i18n.i18n import I18nAuto
 from infer.lib.train.process_ckpt import (
     change_info,
